@@ -1,0 +1,14 @@
+1. An /authenticate api endpoint--> It will accept userid and password and returns JWT as response.
+
+http://localhost:8080/authenticate
+
+{
+ "username":"admin",
+ "password":"password"
+}
+
+2. Implement the validation of jwt and validate the jwt token
+
+http://localhost:8080/hello
+
+Send with Authorization Type BearerToken and copy/paste the jwt token generated in the last step.
